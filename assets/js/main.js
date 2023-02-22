@@ -89,10 +89,18 @@
 
   // Lightbox gallery.
   $(function () {
-    $('.thumb').click(function () {
-      $('.modal').fadeIn();
+    $('#1').click(function () {
+      $('#modal1').fadeIn();
     });
-
+    $('#2').click(function () {
+      $('#modal2').fadeIn();
+    });
+    $('#3').click(function () {
+      $('#modal3').fadeIn();
+    });
+    $('#4').click(function () {
+      $('#modal4').fadeIn();
+    });
     $('.modal_content').click(function () {
       $('.modal').fadeOut();
     });
