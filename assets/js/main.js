@@ -101,7 +101,7 @@
     $('#4').click(function () {
       $('#modal4').fadeIn();
     });
-    $('.modal_content').click(function () {
+    $('.close_btn').click(function () {
       $('.modal').fadeOut();
     });
   });

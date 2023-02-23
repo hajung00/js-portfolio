@@ -2894,7 +2894,24 @@ input[type='button']:disabled,
   box-sizing: border-box;
   padding: 30px 30px;
   line-height: 23px;
+}
+.modal_content .close_btn {
   cursor: pointer;
+}
+/* major */
+.introduce_wrapper {
+  display: flex;
+}
+.span_icon {
+  margin-right: 12px;
+  margin-top: 22px;
+}
+
+.introduce {
+  background: gainsboro;
+  border-radius: 10px;
+  padding: 10px 40px;
+  width: 670px;
 }
 
 .poptrox-popup {
