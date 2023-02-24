@@ -2259,7 +2259,7 @@ ol li {
 ul {
   list-style: disc;
   margin: 0 0 2em 0;
-  padding-left: 1em;
+  /* padding-left: 1em; */
 }
 
 ul li {
@@ -2914,6 +2914,15 @@ input[type='button']:disabled,
   width: 670px;
 }
 
+/* award */
+.awrad_img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 280px;
+  margin-bottom: 1.5rem;
+}
+
 .poptrox-popup {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
@@ -3365,4 +3374,36 @@ body.is-touch .poptrox-popup .closer {
     margin-left: 0;
     padding-left: 0;
   }
+}
+
+/* my */
+.section_wrapper {
+  display: flex;
+}
+.section_50 {
+  width: 50%;
+  position: relative;
+  height: 500px;
+  overflow: auto;
+}
+
+.list_ul {
+  list-style: none;
+}
+.list_ul li {
+  margin: 20px;
+}
+
+.technology_list li {
+  float: left;
+  background-color: antiquewhite;
+  padding-right: 0.5rem;
+  margin: 3px 5px;
+  border-radius: 5px;
+}
+
+/* 기술스택, 자격증 */
+.main_technology_list {
+  display: flex;
+  margin: 10px;
 }

@@ -101,6 +101,15 @@
     $('#4').click(function () {
       $('#modal4').fadeIn();
     });
+    $('#5').click(function () {
+      $('#modal5').fadeIn();
+    });
+    $('#6').click(function () {
+      $('#modal6').fadeIn();
+    });
+    $('#7').click(function () {
+      $('#modal7').fadeIn();
+    });
     $('.close_btn').click(function () {
       $('.modal').fadeOut();
     });
