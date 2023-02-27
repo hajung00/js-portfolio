@@ -193,7 +193,7 @@ body,
 input,
 select,
 textarea {
-  color: #a2a2a2;
+  color: rgb(141 132 197);
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -205,7 +205,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
+  /* border-bottom: dotted 1px; */
   color: #49bf9d;
   text-decoration: none;
 }
@@ -238,7 +238,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #787878;
+  color: #4f487a;
   font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -1867,7 +1867,7 @@ article.special {
 }
 
 header p {
-  color: #b2b2b2;
+  color: #a59fc8;
   position: relative;
   margin: 0 0 1.5em 0;
 }
@@ -2564,6 +2564,7 @@ input[type='button'],
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
+  margin: 0 5%;
 }
 
 input[type='submit']:hover,
@@ -2909,6 +2910,7 @@ input[type='button']:disabled,
   box-sizing: border-box;
   padding: 30px 30px;
   line-height: 23px;
+  color: black;
 }
 .modal_content .close_btn {
   cursor: pointer;
@@ -3421,7 +3423,7 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .learn_list_ul > li {
-  color: #a2a2a2;
+  /* color: #a2a2a2; */
   font-size: 15px;
 }
 .list_ul li {
@@ -3530,31 +3532,45 @@ body.is-touch .poptrox-popup .closer {
 .service_btn {
   width: 45%;
   height: 44px;
-  border: 1px solid gray;
+  border: 2px solid #bc99ab;
   border-radius: 10px;
   font-size: 16px;
   word-spacing: 8px;
   margin: 0 3%;
-}
-.service_btn a {
-  color: black;
+  background-color: white;
+  color: #bc99ab;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
 }
 
 .git_btn {
   width: 45%;
   height: 44px;
-  border: 1px solid gray;
+  border: 2px solid #554e83;
   border-radius: 10px;
   font-size: 16px;
   word-spacing: 8px;
+  color: #554e83;
+  background-color: white;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
 }
-.git_btn a {
-  color: black;
+.service_btn:hover {
+  background-color: #bc99ab;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
 }
-
+.git_btn:hover {
+  background-color: #554e83;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+}
 .service_btn:hover,
 .git_btn:hover {
-  background-color: #5cc6a7;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
 }
 
 .my_title {
@@ -3569,6 +3585,7 @@ body.is-touch .poptrox-popup .closer {
   border-color: #9f5179;
   color: #9f5179 !important;
 }
+
 .my_title > li > img {
   transform: scale(0.28);
   position: absolute;
@@ -3588,4 +3605,16 @@ body.is-touch .poptrox-popup .closer {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     border-color 0.2s ease-in-out;
+}
+.project_motivation {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #d499b9;
+  color: white;
+  padding: 5px;
+  margin: 0 20px;
+  margin-top: -18px;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
 }
