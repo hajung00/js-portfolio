@@ -116,21 +116,36 @@
   });
 
   $(function () {
-    $('#title1').toggle(
-      function () {
-        $('#intro1').css('display', 'none');
-      },
-      function () {
-        $('#intro1').css('display', 'block');
+    $('#title1').click(function () {
+      if ($('#intro1').is(':visible')) {
+        $('#intro1').fadeOut();
+      } else {
+        $('#intro1').fadeIn();
       }
-    );
-    $('#title2').click(function () {
-      $('#intro2').fadeIn();
     });
+
+    $('#title2').click(function () {
+      if ($('#intro2').is(':visible')) {
+        $('#intro2').fadeOut();
+      } else {
+        $('#intro2').fadeIn();
+      }
+    });
+
     $('#title3').click(function () {
-      $('#intro3').fadeIn();
+      if ($('#intro3').is(':visible')) {
+        $('#intro3').fadeOut();
+      } else {
+        $('#intro3').fadeIn();
+      }
     });
   });
+
+  setInterval(function () {
+    $('.title_img ').fadeIn(200, function () {
+      $('.title_img').fadeOut(400);
+    });
+  }, 1500);
   // $window.on('load', function () {
   //   $('#two').poptrox({
   //     caption: function ($a) {

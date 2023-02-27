@@ -2248,7 +2248,6 @@ input[type='radio'] + label:before {
 .image.avatar img {
   border-radius: 100%;
   width: 100%;
-  height: 200px;
 }
 
 /* List */
@@ -2552,11 +2551,11 @@ input[type='button'],
     border-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 0.35em;
-  border: solid 3px #efefef;
-  color: #787878 !important;
+  border: solid 2px #bc99ab;
+  color: #bc99ab !important;
   cursor: pointer;
   display: inline-block;
-  font-weight: 400;
+  font-weight: 700;
   height: 3.15em;
   height: calc(2.75em + 6px);
   line-height: 2.75em;
@@ -2571,8 +2570,8 @@ input[type='submit']:hover,
 input[type='reset']:hover,
 input[type='button']:hover,
 .button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #9f5179;
+  color: #9f5179 !important;
 }
 
 input[type='submit']:active,
@@ -2700,13 +2699,14 @@ input[type='button']:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
+  background-color: #ea7e7c;
+  background-color: #c29393;
   background-attachment: scroll, scroll;
-  background-image: url('images/overlay.png'), url('../../images/bg.jpg');
+  /* background-image: url('images/overlay.png'), url('../../images/bg.jpg'); */
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   height: 100%;
   left: 0;
   /*원래 padding: 8em 4em; */
@@ -2748,7 +2748,7 @@ input[type='button']:disabled,
 }
 
 #header h1 {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 1.35em;
   line-height: 1.75em;
   margin: 0;
@@ -2756,7 +2756,7 @@ input[type='button']:disabled,
 
 #header .image.avatar {
   margin: 0 0 1em 0;
-  width: 10.25em;
+  width: 12.25em;
 }
 
 /* Footer */
@@ -2766,7 +2766,7 @@ input[type='button']:disabled,
 }
 
 #footer .icons a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 #footer .copyright {
@@ -2818,7 +2818,7 @@ input[type='button']:disabled,
   border-top: 0;
   margin-top: 0;
   padding-top: 0;
-  height: 434px;
+  /* height: 400px; */
 }
 
 /* Poptrox */
@@ -2915,9 +2915,10 @@ input[type='button']:disabled,
 }
 /* major */
 .introduce_wrapper {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
+  left: 0; */
+  margin: 30px 0px;
   display: none;
 }
 .span_icon {
@@ -2926,10 +2927,14 @@ input[type='button']:disabled,
 }
 
 .introduce {
-  background: gainsboro;
+  /* background: gainsboro; */
   border-radius: 10px;
-  padding: 10px 40px;
+  padding: 10px;
   width: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 10px 8px 2px #cfb4c2;
 }
 
 /* award */
@@ -3399,7 +3404,7 @@ body.is-touch .poptrox-popup .closer {
   display: flex;
 }
 .section_50 {
-  width: 50%;
+  width: 49%;
   position: relative;
   height: 500px;
   overflow: auto;
@@ -3440,18 +3445,27 @@ body.is-touch .poptrox-popup .closer {
 }
 .technology_list li {
   float: left;
-  background-color: antiquewhite;
+  background-color: #ac85b8;
   padding: 0 0.5rem;
   margin: 10px 2px;
   border-radius: 5px;
-  color: #a2a2a2;
+  color: white;
   font-size: 15px;
 }
 
 /* 기술스택, 자격증 */
 .main_technology_list {
   display: flex;
-  margin: 10px;
+  margin: 5px;
+}
+.main_technology_list span {
+  margin-right: 20px;
+}
+.main_technology_list div span {
+  padding: 5px 10px;
+  background: #ac85b8;
+  border-radius: 7px;
+  color: white;
 }
 .project_image {
   background-size: 100% 280px;
@@ -3545,15 +3559,33 @@ body.is-touch .poptrox-popup .closer {
 
 .my_title {
   list-style: none;
+  height: 50px;
 }
 .my_title > li {
+  position: relative;
+  margin-top: 30px;
+}
+.my_title > li > div:hover {
+  border-color: #9f5179;
+  color: #9f5179 !important;
+}
+.my_title > li > img {
+  transform: scale(0.28);
+  position: absolute;
+  top: -74px;
+}
+
+.my_title > li > div {
   text-align: center;
   float: left;
   margin: 0 15px;
-  border: 1px solid gray;
+  border: 2px solid #bc99ab;
   padding: 5px;
   width: 127px;
   border-radius: 10px;
-  color: gray;
+  color: #bc99ab;
   font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
 }
