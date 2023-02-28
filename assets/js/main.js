@@ -91,27 +91,35 @@
   $(function () {
     $('#1').click(function () {
       $('#modal1').fadeIn();
+      $('body').css('overflow', 'hidden');
     });
     $('#2').click(function () {
       $('#modal2').fadeIn();
+      $('body').css('overflow', 'hidden');
     });
     $('#3').click(function () {
       $('#modal3').fadeIn();
+      $('body').css('overflow', 'hidden');
     });
     $('#4').click(function () {
       $('#modal4').fadeIn();
+      $('body').css('overflow', 'hidden');
     });
     $('#5').click(function () {
       $('#modal5').fadeIn();
+      $('body').css('overflow', 'hidden');
     });
     $('#6').click(function () {
       $('#modal6').fadeIn();
+      $('body').css('overflow', 'hidden');
     });
     $('#7').click(function () {
       $('#modal7').fadeIn();
+      $('body').css('overflow', 'hidden');
     });
     $('.close_btn').click(function () {
       $('.modal').fadeOut();
+      $('body').css('overflow', 'auto');
     });
   });
 

@@ -218,7 +218,7 @@ a:hover {
 
 strong,
 b {
-  color: #787878;
+  color: #4f487a;
   font-weight: 400;
   font-size: 23px;
 }
@@ -706,8 +706,12 @@ pre code {
   .section_50 {
     width: 49%;
     position: relative;
-    height: auto;
+    height: 555px;
     overflow: auto;
+  }
+
+  .section_pumasi {
+    width: 50%;
   }
   .modal_content {
     width: 70%;
@@ -995,11 +999,14 @@ pre code {
   .section_50 {
     width: 50%;
     position: relative;
-    height: auto;
+    height: 555px;
     overflow: auto;
   }
   .modal_content {
     width: 70%;
+  }
+  .section_pumasi {
+    width: 50%;
   }
   .row {
     display: flex;
@@ -1273,18 +1280,24 @@ pre code {
   .section_wrapper {
     display: flex;
     flex-direction: column;
+    height: 92%;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   .section_50 {
     width: 100%;
     position: relative;
     height: auto;
-    overflow: auto;
+    overflow: initial;
   }
   .modal_content {
     width: 75%;
     height: 85%;
-    overflow: auto;
   }
+  .section_pumasi {
+    width: 100%;
+  }
+
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -1809,17 +1822,22 @@ pre code {
   .section_wrapper {
     display: flex;
     flex-direction: column;
+    height: 92%;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   .section_50 {
     width: 100%;
     position: relative;
     height: auto;
-    overflow: auto;
+    overflow: initial;
   }
   .modal_content {
     width: 90%;
     height: 90%;
-    overflow: auto;
+  }
+  .section_pumasi {
+    width: 100%;
   }
   .row {
     display: flex;
@@ -3101,6 +3119,7 @@ input[type='button']:disabled,
   left: 0;
   display: none;
   z-index: 1000;
+  overflow: hidden;
 }
 
 .modal_content {

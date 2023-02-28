@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
   <head>
-    <title>Strata by HTML5 UP</title>
+    <title>Hajung Portfolio</title>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -74,7 +70,7 @@
                 프로젝트를 진행하면서 느낀 부족함을 채우기 위해<br />
                 자격증 취득 및 추가로 학습한 내용을 접목시켜<br />
                 <strong style="font-size: 18px"
-                  >새로운 프로젝트에 도전할 수 있는 노력과 끈기</strong
+                  >새로운 프로젝트에 도전하하는 노력과 끈기</strong
                 >를 <br />갖추고 있습니다.
               </p>
             </div>
@@ -113,8 +109,8 @@
       </section>
 
       <section id="two">
-        <article class="section_wrapper technology">
-          <section class="section_50">
+        <article class="section_wrapper technology" style="overflow: hidden">
+          <section class="section_50" style="height: auto; overflow: hidden">
             <h2>🛠️ 기술 스택</h2>
             <div>
               <ul style="list-style: none">
@@ -139,7 +135,7 @@
               </ul>
             </div>
           </section>
-          <section class="section_50">
+          <section class="section_50" style="height: auto">
             <h2>🪪 자격증</h2>
             <div>
               <ul style="list-style: none">
@@ -147,7 +143,7 @@
                 <li>순천향대학교 의료it공학과 학술제 </li>
                 <li>창업동아리</li> -->
                 <li style="margin: 10px">✏️ 정보처리기사</li>
-                <li style="margin: 10px">✏️ SQLD</li>
+                <li style="margin: 10px">✏️ SQL 개발자(SQL Developer)</li>
                 <li style="margin: 10px">✏️ 컴퓨터 활용능력 1급</li>
               </ul>
             </div>
@@ -165,7 +161,7 @@
             <div class="project-intro">
               <h3>sns 사이트</h3>
               <p>
-                트위터를 모티브로한 SNS 웹사이트 풀스택 구현<br />
+                트위터를 모티브로한 SNS 풀스택 구현 사이트<br />
                 2022.08 -> 2023.02<br />
                 👉 사이트 :
                 <a href="http://hajungsns.com" class="icon brands fa-dribbble"
@@ -185,21 +181,15 @@
                   <h3 style="font-size: 22px; font-weight: bold">SNS 사이트</h3>
                   <span class="close_btn">❌</span>
                 </header>
+
                 <article class="section_wrapper">
                   <section class="section_50" style="margin-right: 2%">
-                    <!-- <img src="images/moniter.png" alt="" style="width: 100%" /> -->
-                    <!-- <img
-                      src="images/sns_full_gif.gif"
-                      alt=""
-                      style="width: 94%; position: absolute; top: 5%; left: 3%"
-                    /> -->
-
                     <video
                       src="images/full_sns_v.mp4"
                       controls
                       style="width: 100%; height: 260px"
                     >
-                      대체텍스트
+                      SNS Preview
                     </video>
 
                     <p class="project_introduce">
@@ -238,7 +228,7 @@
                         <ul class="learn_list_ul">
                           <li>
                             - next.js: react(CSR) 첫 로딩 시간이 오래걸리는
-                            문제를 해결하고자 ssr 미리 데이터가 렌더링된
+                            문제를 해결하고자 SSR, 미리 데이터가 렌더링된
                             페이지를 가져올수 있게 해주므로 시용자 경험 개선
                           </li>
                           <li>
@@ -279,7 +269,7 @@
             <div class="project-intro">
               <h3>쇼핑몰 사이트</h3>
               <p>
-                가짜 API서버를 구축하여 만든 쇼핑몰<br />
+                가짜 API서버를 구축하여 만든 쇼핑몰 사이트<br />
                 2022.11 -> 2023.01<br />
                 <span>
                   👉 사이트 :
@@ -313,7 +303,7 @@
                       controls
                       style="width: 100%; height: 260px"
                     >
-                      대체텍스트
+                      Shop Preview
                     </video>
 
                     <p class="project_introduce">
@@ -341,29 +331,30 @@
                           <li>json-server</li>
                         </ul>
                       </li>
-                      <br />
+                      <div style="clear: left"></div>
                       <li>
                         📌 배운점
                         <ul class="learn_list_ul">
                           <li>
-                            react: 반복되는 코드를 컴포넌트화, jsx문법 사용
+                            - react: 반복되는 코드를 컴포넌트화, jsx문법 사용
                             또한, 리액트 훅 usestate, useeffect역할 사용방법
                             학습
                           </li>
                           <li>
-                            redux: 스토어를 통해 데이터 관리, 리듀서를 통한
+                            - redux: 스토어를 통해 데이터 관리, 리듀서를 통한
                             데이터 변경 (적용 -> 바구니 추가, 수량변경)
                           </li>
                           <li>
-                            local-storage: 로컬스토리지 메소드를 이용해 방문한
+                            - local-storage: 로컬스토리지 메소드를 이용해 방문한
                             상품을 키-값으로 저장
                           </li>
                           <li>
-                            axios: 동기 통신,비동기 통신,promise객체에 대해 학습
-                            (적용 -> get메소드를 이용해 상품의 목록을 불러옴)
+                            - axios: 동기 통신,비동기 통신, promise객체에 대해
+                            학습 (적용 -> get메소드를 이용해 상품의 목록을
+                            불러옴)
                           </li>
                           <li>
-                            json-server: 가짜 API서버를 구축해 카테고리별 상품
+                            - json-server: 가짜 API서버를 구축해 카테고리별 상품
                             데이터 저장
                           </li>
                         </ul>
@@ -404,7 +395,7 @@
             </div>
 
             <div class="modal" id="modal3">
-              <div class="modal_content" style="width: 65%">
+              <div class="modal_content">
                 <header style="display: flex; justify-content: space-between">
                   <h3 style="font-size: 22px; font-weight: bold">
                     품앗이 어플리케이션
@@ -412,7 +403,7 @@
                   <span class="close_btn">❌</span>
                 </header>
                 <article class="section_wrapper">
-                  <section style="width: 50%; margin-right: 2%">
+                  <section class="section_pumasi" style="margin-right: 5%">
                     <div style="display: flex">
                       <img
                         src="images/pumasi.png"
@@ -429,7 +420,7 @@
                           margin: 20px 0px 0px 0;
                         "
                       >
-                        대체텍스트
+                        Pumasi Preview
                       </video>
                     </div>
 
@@ -445,7 +436,7 @@
                       </button>
                     </a>
                   </section>
-                  <section style="width: 50%">
+                  <section section class="section_pumasi">
                     <ul class="list_ul">
                       <li>
                         📌 사용 기술
@@ -456,14 +447,16 @@
                           <li>axios</li>
                         </ul>
                       </li>
-                      <br />
+                      <div style="clear: left"></div>
                       <li>
                         📌 참여한 부분
                         <ul class="learn_list_ul">
-                          <li>프로젝트 기획 및 계획</li>
-                          <li>프로젝트 로직, DOM 설계</li>
-                          <li>회원가입, 마이페이지, 쪽지, 채팅 페이지 구현</li>
-                          <li>메타버스로 실제 서비스 로직 구현</li>
+                          <li>- 프로젝트 기획 및 계획</li>
+                          <li>- 프로젝트 로직, DOM 설계</li>
+                          <li>
+                            - 회원가입, 마이페이지, 쪽지, 채팅 페이지 구현
+                          </li>
+                          <li>- 메타버스로 실제 서비스 로직 구현</li>
                         </ul>
                       </li>
                       <li style="position: relative">
@@ -513,7 +506,7 @@
                       controls
                       style="width: 100%; height: 260px"
                     >
-                      대체텍스트
+                      Mediacl Preview
                     </video>
 
                     <p class="project_introduce">
@@ -541,18 +534,18 @@
                           <li>swiper</li>
                         </ul>
                       </li>
-                      <br />
+                      <div style="clear: left"></div>
                       <li>
                         📌 참여한 부분
                         <ul class="learn_list_ul">
-                          <li>프로젝트 기획 및 계획</li>
-                          <li>컴포넌트, DOM 설계</li>
-                          <li>지도 api 가져와 사업장 위치 마크업</li>
+                          <li>- 프로젝트 기획 및 계획</li>
+                          <li>- 컴포넌트, DOM 설계</li>
+                          <li>- 지도 api 가져와 사업장 위치 마크업</li>
                           <li>
-                            회사 소개(swiper), 오시는길, 인재채용 페이지 구현
+                            - 회사 소개(swiper), 오시는길, 인재채용 페이지 구현
                           </li>
-                          <li>nav, footer 구현</li>
-                          <li>깃허브로 협업</li>
+                          <li>- nav, footer 구현</li>
+                          <li>- 깃허브로 협업</li>
                         </ul>
                       </li>
                       <li style="position: relative">
@@ -610,15 +603,6 @@
           </article>
 
           <article class="col-6 col-12-xsmall work-item">
-            <!-- <div class="awrad_img_wrapper">
-              <img
-                src="images/spot.jpg"
-                alt=""
-                class="image fit thumb"
-                id="5"
-                style="width: 60%"
-              />
-            </div> -->
             <div class="award_image image2" id="5"></div>
             <div class="project-intro">
               <h3>순천향대학교 창업 경진 대회</h3>
@@ -643,7 +627,7 @@
                       controls
                       style="width: 100%; margin: 20px 0 0 0"
                     >
-                      대체텍스트
+                      Pumasi Preview
                     </video>
 
                     <p class="project_introduce">
@@ -667,12 +651,11 @@
                         <ul class="learn_list_ul">
                           <li>
                             - 코로나로 인해 아이가 아프면 강제 하원시켜야하는
-                            경우가 <br />
-                            빈번하게 발생
+                            경우가 빈번하게 발생
                           </li>
                           <li>
-                            - 맞벌이 부부의경우 아이를 하원시키기 힘들고 <br />
-                            맞벌이 부부도 증가하는 추세
+                            - 맞벌이 부부의경우 아이를 하원시키기 힘들고 맞벌이
+                            부부도 증가하는 추세
                           </li>
                         </ul>
                         <div class="project_motivation">
@@ -693,19 +676,21 @@
                       <li>
                         📌 주요 기능
                         <ul class="learn_list_ul">
-                          <li>주변 어린이집 마크업</li>
-                          <li>아동 등원/하원 요청 게시글 작성</li>
-                          <li>쪽지로 학부모 간 소통 후 이용 여부 선택</li>
-                          <li>아동 등원/하원 종료 시, 도착 메세지 전송</li>
+                          <li>- 주변 어린이집 마크업</li>
+                          <li>- 아동 등원/하원 요청 게시글 작성</li>
+                          <li>- 쪽지로 학부모 간 소통 후 이용 여부 선택</li>
+                          <li>- 아동 등원/하원 종료 시, 도착 메세지 전송</li>
                         </ul>
                       </li>
                       <li>
                         📌 담당한 파트
                         <ul class="learn_list_ul">
-                          <li>프로젝트 기획 및 계획</li>
-                          <li>프로젝트 로직, DOM 설계</li>
-                          <li>회원가입, 마이페이지, 쪽지, 채팅 페이지 구현</li>
-                          <li>메타버스로 실제 서비스 로직 구현</li>
+                          <li>- 프로젝트 계획</li>
+                          <li>- 프로젝트 로직, DOM 설계</li>
+                          <li>
+                            - 회원가입, 마이페이지, 쪽지, 채팅 페이지 구현
+                          </li>
+                          <li>- 메타버스로 실제 서비스 로직 구현</li>
                         </ul>
                       </li>
                     </ul>
@@ -749,14 +734,14 @@
                         controls
                         style="width: 47%; margin: 20px 2% 0 0"
                       >
-                        대체텍스트
+                        Patient1 Preview
                       </video>
                       <video
                         src="images/patient_1.mp4"
                         controls
                         style="width: 47%; margin: 20px 0 0 0"
                       >
-                        대체텍스트
+                        Patient2 Preview
                       </video>
                     </div>
 
@@ -802,30 +787,33 @@
                       <li>
                         📌 주요 기능
                         <ul class="learn_list_ul">
-                          <li>환자 정보 등록</li>
+                          <li>- 환자 정보 등록</li>
                           <li>
-                            수액 투여 속도가 적정 속도에서 벗어나면 간호사에게
+                            - 수액 투여 속도가 적정 속도에서 벗어나면 간호사에게
                             알림
                           </li>
                           <li>
-                            배뇨팩의 무게가 100%에 도달하면 간호사에게 알림
+                            - 배뇨팩의 무게가 100%에 도달하면 간호사에게 알림
                           </li>
                         </ul>
                       </li>
                       <li>
                         📌 담당한 파트
                         <ul class="learn_list_ul">
-                          <li>프로젝트 기획 및 계획</li>
-                          <li>ul 디자인</li>
-                          <li>로그인, 환자 정보 추가 기능</li>
+                          <li>- 프로젝트 기획 및 계획</li>
+                          <li>- ul 디자인</li>
+                          <li>- 로그인, 환자 정보 추가 기능</li>
                           <li>
-                            수액 속도가 일정하지 않으면 '환자 확인 요망' 알림
+                            - 수액 속도가 일정하지 않으면 '환자 확인 요망' 알림
                             뜨기
                           </li>
                           <li>
-                            꽉찬 배표팩을 100%로 무게 센서를 이용해 받아온 값을
-                            0 30 60 100 퍼센트로 표현 후 100 퍼센트일 경우 '환자
-                            확인 요망' 알림 뜨기
+                            - 배뇨팩의 무게를 받아와 몇 퍼센트 찼는지 확인 ( 0,
+                            30, 60, 100 )
+                          </li>
+                          <li>
+                            - 배뇨팩이 100% 찼을 경우, '환자 확인 요망' 알림
+                            뜨기
                           </li>
                         </ul>
                       </li>
@@ -1303,13 +1291,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
           </li>
         </ul>
 
-        <div class="icon solid fa-phone" style="margin-top: 10px">
-          <span style="margin-left: 10px"> 010-5851-0071</span>
+        <div class="icon solid fa-phone" style="margin-top: 10px; color: white">
+          <span style="margin-left: 10px; color: white"> 010-5851-0071</span>
           <span class="label">Dribbble</span>
         </div>
 
-        <div class="icon solid fa-envelope">
-          <span style="margin-left: 10px"> gkwjd719@naver.com</span>
+        <div
+          class="icon solid fa-envelope"
+          style="margin-top: 10px; color: white"
+        >
+          <span style="margin-left: 10px; color: white">
+            gkwjd719@naver.com</span
+          >
           <span class="label">Email</span>
         </div>
 
