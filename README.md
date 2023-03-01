@@ -1,33 +1,32 @@
-Strata by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# 📌 Hajung-Portfolio
+
+<br/> 
+
+## 📑 Table Of Contents
+1.   👋🏻[ Introduce](#-introduce)<br/>
+2.   🚀[ Distribution Link](#-distribution-link)<br/>
+3.   🗓[ Develop Period](#-develop-period)<br/>
+4.   🕶[ Preview](#-preview)<br/>
+
+<br />
 
 
-A simple, minimalist template that actually began life as an unused redesign of my
-personal site. Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
+## 👋🏻 Introduce
+그동안의 작업물들이 담겨 있는 사이트 입니다.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+<br />
 
-(* = Not included)
+## 🚀 Distribution Link
+👉 [hajung-portfolio 사이트 바로가기](https://hajung-portfolio.netlify.app)
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+<br />
 
-AJ
-aj@lkn.io | @ajlkn
+## 🗓 Develop Period
+2022.02 ~ 2023.03
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+<br />
 
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## 🕶 Preview 
+|Desktop View|Mobile View|
+|---|---|
+|<img src="https://user-images.githubusercontent.com/66300154/222141726-7a374e69-5aac-4e74-a2b0-104e456bef13.png" width="450" height="250"/>|<img src="https://user-images.githubusercontent.com/66300154/222141974-56b8a10e-5942-467c-bcad-56e982d02854.png" width="300" height="400"/>|
